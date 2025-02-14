@@ -19,27 +19,31 @@ Séance 3 : Prétraitement des Données, début de la conception de l'architectu
         Division des données en ensembles d'entraînement, de validation et de test.
         Explication détaillée du fonctionnement des auto-encodeurs.
 
-Séance 4 : Travail sur l'architecture, l'entrainement du modèle
+Séance 4 : Travail sur l'architecture, Entrainement du modèle
 
     Objectifs :
         Implémentation d'un auto-encodeur simple pour comprendre le concept.
         Analyse des codes pythons en rapport et début de la conception de l'architecture de l'auto-encodeur pour la détection d'anomalies.
-
-Séance 5 : Conception de l'Architecture du Modèle plus avancé
-
-    Objectifs :
         Conception de l'architecture de l'auto-encodeur pour la détection d'anomalies.
         Choix des couches et des hyperparamètres initiaux.
+        Entraînement de l'auto-encodeur sur les données d'entraînement.
+
+Séance 5 : Continuer entrainement(si pas fini) et Choix des métriques, Comprehension des méthodes d'évaluation du modèle
+
+    Objectifs :
+        (Optionnel):Entraînement de l'auto-encodeur sur les données d'entraînement.
+        Enumérer les métriques afin d'évaluer notre modèle. 
+        Les analyser et choisir les métriques pertinentes.
+        Comprendre les méthodes d'évaluation / début de l'implémentation
 
 Séance 6 : Entraînement du Modèle / évaluation des Performances
 
     Objectifs :
-        Entraînement de l'auto-encodeur sur les données d'entraînement.
         Surveillance des performances sur l'ensemble de validation.
         Évaluation du modèle à l'aide de métriques telles que l'AUC-ROC, la précision et le rappel.
         Analyse des résultats et identification des points à améliorer.
 
-Séance 7 : Entraînement du Modèle / évaluation des Performances
+Séance 7 : valuation des Performances
 
     Objectifs :
         Mêmes objectifs que la séance 6
