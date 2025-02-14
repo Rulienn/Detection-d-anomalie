@@ -1,61 +1,65 @@
-Séance 1 : Introduction et Préparation
+Séance 1 : Introduction, Planning
 
     Objectifs :
-        Présentation du projet et des objectifs.
-        Introduction aux concepts de base du Deep Learning et des auto-encodeurs.
-        Installation des outils nécessaires (Python, bibliothèques comme TensorFlow ou PyTorch).
+        Prise de connaissance du projet et des objectifs.
+        Mise en place du GitHub
+        Récupération des données, début de l'exploration des données
 
 Séance 2 : Exploration des Données
 
     Objectifs :
         Chargement et exploration de la base de données d'images de câblages de voitures.
         Visualisation des images et analyse des caractéristiques des données.
+        Réfléchir à la manière de les utiliser pour créer le système (prédéfinir quelques hyperparamètres)
 
-Séance 3 : Prétraitement des Données
+Séance 3 : Prétraitement des Données, début de la conception de l'architecture
 
     Objectifs :
         Prétraitement des images (redimensionnement, normalisation, augmentation des données).
         Division des données en ensembles d'entraînement, de validation et de test.
+        Explication détaillée du fonctionnement des auto-encodeurs.
 
-Séance 4 : Introduction aux Auto-encodeurs
+Séance 4 : Travail sur l'architecture, l'entrainement du modèle
 
     Objectifs :
-        Explication détaillée du fonctionnement des auto-encodeurs.
         Implémentation d'un auto-encodeur simple pour comprendre le concept.
+        Analyse des codes pythons en rapport et début de la conception de l'architecture de l'auto-encodeur pour la détection d'anomalies.
 
-Séance 5 : Conception de l'Architecture du Modèle
+Séance 5 : Conception de l'Architecture du Modèle plus avancé
 
     Objectifs :
         Conception de l'architecture de l'auto-encodeur pour la détection d'anomalies.
         Choix des couches et des hyperparamètres initiaux.
 
-Séance 6 : Entraînement du Modèle
+Séance 6 : Entraînement du Modèle / évaluation des Performances
 
     Objectifs :
         Entraînement de l'auto-encodeur sur les données d'entraînement.
         Surveillance des performances sur l'ensemble de validation.
-
-Séance 7 : Évaluation des Performances
-
-    Objectifs :
         Évaluation du modèle à l'aide de métriques telles que l'AUC-ROC, la précision et le rappel.
         Analyse des résultats et identification des points à améliorer.
 
-Séance 8 : Ajustement des Hyperparamètres
+Séance 7 : Entraînement du Modèle / évaluation des Performances
+
+    Objectifs :
+        Mêmes objectifs que la séance 6
+
+Séance 8 : Ajustement des Hyperparamètres en fonction de l'évaluation
 
     Objectifs :
         Ajustement des hyperparamètres pour améliorer les performances du modèle.
         Ré-entraînement du modèle avec les nouveaux paramètres.
 
-Séance 9 : Analyse des Anomalies
+Séance 9 : Finalisation du modèle et rapporter les anomalies détectées
 
     Objectifs :
         Analyse des anomalies détectées par le modèle.
         Visualisation des images avec des erreurs de reconstruction élevées.
+        Début du rapport
 
 Séance 10 : Conclusion et Rapport
 
     Objectifs :
         Synthèse des résultats obtenus et des compétences acquises.
         Rédaction d'un rapport final présentant le projet, les résultats et les pistes d'amélioration.
-        Présentation des conclusions et discussion sur les perspectives futures.
+        Enoncer les limites du modèle, les erreurs, les problèmes rencontrés
