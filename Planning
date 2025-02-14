@@ -1,0 +1,61 @@
+Séance 1 : Introduction et Préparation
+
+    Objectifs :
+        Présentation du projet et des objectifs.
+        Introduction aux concepts de base du Deep Learning et des auto-encodeurs.
+        Installation des outils nécessaires (Python, bibliothèques comme TensorFlow ou PyTorch).
+
+Séance 2 : Exploration des Données
+
+    Objectifs :
+        Chargement et exploration de la base de données d'images de câblages de voitures.
+        Visualisation des images et analyse des caractéristiques des données.
+
+Séance 3 : Prétraitement des Données
+
+    Objectifs :
+        Prétraitement des images (redimensionnement, normalisation, augmentation des données).
+        Division des données en ensembles d'entraînement, de validation et de test.
+
+Séance 4 : Introduction aux Auto-encodeurs
+
+    Objectifs :
+        Explication détaillée du fonctionnement des auto-encodeurs.
+        Implémentation d'un auto-encodeur simple pour comprendre le concept.
+
+Séance 5 : Conception de l'Architecture du Modèle
+
+    Objectifs :
+        Conception de l'architecture de l'auto-encodeur pour la détection d'anomalies.
+        Choix des couches et des hyperparamètres initiaux.
+
+Séance 6 : Entraînement du Modèle
+
+    Objectifs :
+        Entraînement de l'auto-encodeur sur les données d'entraînement.
+        Surveillance des performances sur l'ensemble de validation.
+
+Séance 7 : Évaluation des Performances
+
+    Objectifs :
+        Évaluation du modèle à l'aide de métriques telles que l'AUC-ROC, la précision et le rappel.
+        Analyse des résultats et identification des points à améliorer.
+
+Séance 8 : Ajustement des Hyperparamètres
+
+    Objectifs :
+        Ajustement des hyperparamètres pour améliorer les performances du modèle.
+        Ré-entraînement du modèle avec les nouveaux paramètres.
+
+Séance 9 : Analyse des Anomalies
+
+    Objectifs :
+        Analyse des anomalies détectées par le modèle.
+        Visualisation des images avec des erreurs de reconstruction élevées.
+
+Séance 10 : Conclusion et Rapport
+
+    Objectifs :
+        Synthèse des résultats obtenus et des compétences acquises.
+        Rédaction d'un rapport final présentant le projet, les résultats et les pistes d'amélioration.
+        Présentation des conclusions et discussion sur les perspectives futures.
