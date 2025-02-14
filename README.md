@@ -23,3 +23,5 @@ l’aire sous la courbe ROC (AUC), la précision ou le rappel.
 4. Analyser les résultats obtenus et proposer des pistes d’amélioration en cas
 de performances insuffisantes, par exemple en ajustant l’architecture du
 modèle ou les hyperparamètres.
+
+coucou toi
