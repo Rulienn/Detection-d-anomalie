@@ -10,7 +10,7 @@ Séance 2 : Exploration des Données
     Objectifs :
         Chargement et exploration de la base de données d'images de câblages de voitures.
         Visualisation des images et analyse des caractéristiques des données.
-        Réfléchir à la manière de les utiliser pour créer le système (prédéfinir quelques hyperparamètres)
+        Se renseigner sur l'autoencodeur
 
 Séance 3 : Prétraitement des Données, début de la conception de l'architecture
 
