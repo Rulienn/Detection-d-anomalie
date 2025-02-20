@@ -11,6 +11,7 @@ Séance 2 : Exploration des Données
         Chargement et exploration de la base de données d'images de câblages de voitures.
         Visualisation des images et analyse des caractéristiques des données.
         Se renseigner sur l'autoencodeur
+        Demarage du codage (load the database), créer l'architecture
 
 
 Séance 3 : Prétraitement des Données, début de la conception de l'architecture
