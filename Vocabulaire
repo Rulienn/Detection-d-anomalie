@@ -1,10 +1,19 @@
-1) Modèles de type auto-encodeur
 
-2)Erreur de reconstruction
 
-3)évaluer l’efficacit´e du mod`ele `a l’aide de m´etriques appropri´ees telles que
-l’aire sous la courbe ROC (AUC), la pr´ecision ou le rappel
+    Modèles de type auto-encodeur :
+        Un auto-encodeur est un type de réseau de neurones artificiels utilisé pour apprendre des représentations efficaces (codages) d'un ensemble de données, souvent à des fins de réduction de dimensionnalité ou de détection d'anomalies. Il est composé de deux parties principales : l'encodeur, qui compresse les données d'entrée en une représentation de plus petite dimension, et le décodeur, qui tente de reconstruire les données d'entrée à partir de cette représentation.
+        Explication : https://blent.ai/blog/a/auto-encodeurs-deep-learning
+    Erreur de reconstruction :
+        L'erreur de reconstruction est une mesure de la différence entre les données d'entrée originales et les données reconstruites par l'auto-encodeur. Dans le contexte de la détection d'anomalies, une erreur de reconstruction élevée peut indiquer que l'entrée est anormale, car l'auto-encodeur n'a pas pu la reconstruire correctement.
 
-4) architecture
+    Évaluer l’efficacité du modèle à l’aide de métriques appropriées telles que l’aire sous la courbe ROC (AUC), la précision ou le rappel :
+        AUC-ROC (Aire sous la courbe ROC) : La courbe ROC (Receiver Operating Characteristic) est un graphique qui montre les performances d'un modèle de classification à tous les seuils de classification. L'AUC mesure l'ensemble de la surface sous cette courbe, fournissant une mesure agrégée des performances du modèle.
+        Précision : La précision est la proportion des vrais positifs parmi les éléments prédits comme positifs. Elle mesure la pertinence des résultats positifs prédits par le modèle.
+        Rappel : Le rappel est la proportion des vrais positifs parmi tous les éléments qui devraient être identifiés comme positifs. Il mesure la capacité du modèle à identifier tous les cas positifs.
 
-5) hyperparamètres
+    Architecture :
+        L'architecture d'un modèle de réseau de neurones fait référence à la structure du réseau, y compris le nombre de couches, le nombre de neurones dans chaque couche, les types de couches (par exemple, convolutives, entièrement connectées), et la manière dont elles sont connectées. L'architecture détermine la capacité du modèle à apprendre et à généraliser à partir des données.
+
+    Hyperparamètres :
+        Les hyperparamètres sont des paramètres qui ne sont pas appris par le modèle mais qui doivent être définis avant le processus d'apprentissage. Ils incluent des éléments tels que le taux d'apprentissage, le nombre d'époques d'entraînement, la taille des lots (batch size), et les paramètres de régularisation. Le réglage de ces hyperparamètres peut avoir un impact significatif sur les performances du modèle.
+
