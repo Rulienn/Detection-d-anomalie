@@ -12,10 +12,20 @@ Séance 2 : Exploration des Données
         Visualisation des images et analyse des caractéristiques des données.
         Se renseigner sur l'autoencodeur
 
+
 Séance 3 : Prétraitement des Données, début de la conception de l'architecture
 
     Objectifs :
         Prétraitement des images (redimensionnement, normalisation, augmentation des données).
+Fait:
+*Importer modules 
+
+*Télécharger les données. Les données sont divisées en données d'apprentissage et de test.
+
+*Les valeurs de pixels doivent être normalisées de 0 à 1.
+
+*Nous allons ensuite aplatir les matrices des images, afin de réduire leur dimension. Nous allons passer d'une matrice 2D à un vecteur 1D. Cette opération nous permettra d'alimenter les couche du réseau avec ces images.
+
         Division des données en ensembles d'entraînement, de validation et de test.
         Explication détaillée du fonctionnement des auto-encodeurs.
 
