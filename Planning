@@ -17,6 +17,7 @@ Séance 2 : Exploration des Données
 Séance 3 : Prétraitement des Données, début de la conception de l'architecture
 
     Objectifs :
+        Trouver un tuto (PyTorch) pour faire un premier modèle
         Prétraitement des images (redimensionnement, normalisation, augmentation des données).
 Fait:
 *Importer modules 
