@@ -3,16 +3,6 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-#keras
-import keras
-from keras.models import Model
-from keras.layers import Input, add
-from keras.layers import Layer, Dense, Dropout, Activation, Flatten, Reshape
-from keras import regularizers
-from keras.regularizers import l2
-from keras.layers.convolutional import Conv2D, MaxPooling2D, UpSampling2D, ZeroPadding2D
-from keras.utils import np_utils
-
 
 def load_images_from_folder(folder_path, target_size=None):
     images = []
@@ -34,10 +24,29 @@ def normalize(images):
     images = images.reshape(s[0],s[1]*s[2]*s[3])
     return images
 
-folder_path = '/home/jgayraud/Documents/MIC3/BE/engine_wiring/test/blue_hoop'
+def denormalize(i): # i correspond au numéro de l'image qu'on veut afficher (dans l'odre ou elles ont été loadées)
+    img = images[i,:]
+    img = img.reshape(400,400,3)
+    return img
+
+def plotimage(i):
+    img = denormalize(i)
+    plt.imshow(img)
+    plt.axis('off')  # Masquer les axes
+    plt.show()
+
+folder_path = '/home/jgayraud/DocIAuments/MIC3/BE/engine_wiring/test/blue_hoop'
 target_size = (400, 400)  
 images, filenames = load_images_from_folder(folder_path, target_size)
+
+
+
 images = normalize(images)
+
+# futur implémentation de l'IA
+
+plotimage(3)
+
 
 
 # Afficher la forme des images chargées
@@ -45,3 +54,5 @@ print(f"Forme des images chargées : {images.shape}")
 #plt.imshow(images[4,:,:,:])
 #plt.axis('off')  # Masquer les axes
 #plt.show()
+
+
