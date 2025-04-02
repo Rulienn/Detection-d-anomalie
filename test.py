@@ -3,7 +3,6 @@ import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
 
-
 def load_images_from_folder(folder_path, target_size=None):
     images = []
     filenames = []
