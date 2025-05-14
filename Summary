@@ -1,1 +1,21 @@
+
 Sommaire pour le rapport final
+
+Présentation du projet
+
+Pesnetation des données
+
+Presentation des auto-encodeurs
+
+Realisation de l'auto-encodeur
+
+-Présentation des hyperparametres, couches et fonctions d'activations
+-Fonction loss et la méthode d'optimisation
+
+Entrainement du modèle
+
+Test visuel du modèle sur les images avec et sans anormalies
+
+Réalisation de l'histogramme de reconctruction et choix de la métrique pour évaluer l'erreur de reconstruction
+
+Evaluation de la métrique retenue en utilisant les concepts de confusion matrix, ROC curve, AUROC, Precision, recall, AUPR, F-beta scores
