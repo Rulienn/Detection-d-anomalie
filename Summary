@@ -1,21 +1,41 @@
 
 Sommaire pour le rapport final
 
-Présentation du projet
+*Présentation du projet
+Explication de l'objectif : détecter automatiquement les anomalies visuelles dans des images en utilisant un autoencodeur, un type de réseau de neurones non supervisé.
+L’idée étant que l’autoencodeur apprenne à reconstruire les images normales, et de détecter les images anormales
 
-Pesnetation des données
+*Pesentation des données
 
-Presentation des auto-encodeurs
+*Presentation des auto-encodeurs
+Expliquer le fonctionnement général d’un autoencodeur :
+Encodeur (compression) → Vecteur latent → Décodeur (reconstruction).
 
-Realisation de l'auto-encodeur
+*Realisation de l'auto-encodeur
 
--Présentation des hyperparametres, couches et fonctions d'activations
--Fonction loss et la méthode d'optimisation
++Présentation des hyperparametres, couches et fonctions d'activations
+Détailler les couches utilisées (Convolution, Linear),
+la taille du vecteur latent, le nombre de filtres ou de neurones,
+les fonctions d’activation (ReLU, Sigmoid), et pourquoi elles sont choisies.
 
-Entrainement du modèle
++Fonction loss et la méthode d'optimisation
+Expliquer la fonction de perte choisie (MSELoss ou BCELoss),
+et l’optimiseur utilisé Adam, avec les paramètres (learning rate, weight decay).
 
-Test visuel du modèle sur les images avec et sans anormalies
+*Entrainement du modèle
+Décrire le processus d’entraînement : nombre d’épochs, taille des batchs, durée,
+évolution de la perte, afficher la courbe de loss et des images de reconstruction au cours des epoches
 
-Réalisation de l'histogramme de reconctruction et choix de la métrique pour évaluer l'erreur de reconstruction
+*Test visuel du modèle sur les images avec et sans anormalies
+Montrer des exemples visuels d’images normales et anormales,
+avec leur reconstruction pour voir la différence à l’œil nu.
+Commentaire sur les résultats
 
-Evaluation de la métrique retenue en utilisant les concepts de confusion matrix, ROC curve, AUROC, Precision, recall, AUPR, F-beta scores
+
+*Réalisation de l'histogramme de reconctruction et choix de la métrique pour évaluer l'erreur de reconstruction
+Présentation histogramme pour visualiser la différence de reconstruction entre images normales et anomales.
+Explication le choix de la métrique pour calculer cette erreur apres assez essayer plusieurs.
+
+*Evaluation de la métrique retenue en utilisant les concepts de confusion matrix, ROC curve, AUROC, Precision, recall, AUPR, F-beta scores
+
+*Conclure sur les performances globales du modèle 
